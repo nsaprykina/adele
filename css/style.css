@@ -1021,6 +1021,7 @@ dl {
 
 .form__block {
     display: flex;
+    column-gap: 30px;
     margin-bottom: 38px;
 }
 
@@ -1030,14 +1031,6 @@ dl {
     border: 0;
     background-color: transparent;
     border-bottom: 1px solid #ebebeb;
-}
-
-.form__input[name="name"] {
-    margin-right: 15px;
-}
-
-.form__input[name="email"] {
-    margin-left: 15px;
 }
 
 .form__textarea {
